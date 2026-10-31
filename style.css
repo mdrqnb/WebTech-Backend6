@@ -1,6 +1,3 @@
-
-/* Task  1 */
-
 body {
     background-color: #111827;
     color: white;
@@ -81,7 +78,6 @@ button:hover {
     margin: 8px 0;
 }
 
-
 /* Task 3 */
 
 .gallery-section {
@@ -116,7 +112,6 @@ button:hover {
 .gallery-buttons {
     margin-top: 20px;
 }
-
 
 /* Task 4 */
 
@@ -160,7 +155,6 @@ button:hover {
 .slide-buttons {
     margin-top: 15px;
 }
-
 
 /* Task 5 */
 
@@ -228,7 +222,6 @@ button:hover {
     text-decoration: underline;
 }
 
-
 /* Task 7 */
 
 .contact-section {
@@ -281,7 +274,6 @@ button:hover {
     margin: 10px 0;
 }
 
-
 /* Task 8 */
 
 .animation-section {
@@ -323,9 +315,6 @@ button:hover {
     border-radius: 10px;
 }
 
-
-
-/* LIGHT THEME */
 body {
     background-color: #F4F7FB;
     color: #243247;
@@ -373,6 +362,19 @@ input {
     border: 1px solid #D8E0EA;
 }
 
+#personalInfo {
+    background-color: #F0F4F9;
+    color: #345477;
+}
+
+#personalInfo h3 {
+    color: #243247;
+}
+
+#status {
+    color: #527EB5;
+}
+
 .slide-panel {
     background-color: #F4F7FB;
     color: #52647B;
@@ -383,9 +385,29 @@ input {
     color: #345477;
 }
 
-.skill-list li {
+#skillList li {
     background-color: #F0F4F9;
     color: #345477;
+}
+
+.form-group input {
+    background-color: #FFFFFF;
+    color: #243247;
+    border-color: #D8E0EA;
+}
+
+.form-output {
+    background-color: #F0F4F9;
+    color: #345477;
+}
+
+.form-output h3 {
+    color: #243247;
+}
+
+.animation-section h2,
+.contact-section h2 {
+    color: #243247;
 }
 
 .bar {
@@ -396,8 +418,8 @@ input {
     background-color: #6388B8;
 }
 
-
 /* DARK THEME */
+
 body.dark-theme {
     background-color: #141E2D;
     color: #E2E8F0;
@@ -443,6 +465,19 @@ body.dark-theme input {
     border-color: #40536C;
 }
 
+body.dark-theme #personalInfo {
+    background-color: #26364B;
+    color: #D5DFEB;
+}
+
+body.dark-theme #personalInfo h3 {
+    color: #E2E8F0;
+}
+
+body.dark-theme #status {
+    color: #91B8E8;
+}
+
 body.dark-theme .slide-panel {
     background-color: #26364B;
     color: #D5DFEB;
@@ -453,9 +488,24 @@ body.dark-theme .slide-heading {
     color: #E2E8F0;
 }
 
-body.dark-theme .skill-list li {
+body.dark-theme #skillList li {
     background-color: #26364B;
     color: #D5DFEB;
+}
+
+body.dark-theme .form-group input {
+    background-color: #26364B;
+    color: #FFFFFF;
+    border-color: #40536C;
+}
+
+body.dark-theme .form-output {
+    background-color: #26364B;
+    color: #D5DFEB;
+}
+
+body.dark-theme .form-output h3 {
+    color: #E2E8F0;
 }
 
 body.dark-theme .bar {
@@ -464,4 +514,22 @@ body.dark-theme .bar {
 
 body.dark-theme .progress {
     background-color: #789BCB;
+}
+
+.skill-info {
+    color: #243247;
+}
+
+.skill-info span {
+    color: #243247;
+    font-weight: bold;
+}
+
+body.dark-theme .skill-info,
+body.dark-theme .skill-info span {
+    color: #E2E8F0;
+}
+
+body:not(.dark-theme) .contact-section label {
+    color: #243247;
 }
