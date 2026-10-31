@@ -1,0 +1,467 @@
+
+/* Task  1 */
+
+body {
+    background-color: #111827;
+    color: white;
+    font-family: Arial, sans-serif;
+    transition: 0.3s;
+    padding: 30px;
+}
+
+.portfolio {
+    background-color: #1f2937;
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 700px;
+    margin: 30px auto;
+    transition: 0.3s;
+}
+
+.portfolio h2 {
+    color: #a78bfa;
+}
+
+.headline {
+    margin: 15px 0;
+}
+
+.intro {
+    line-height: 1.6;
+}
+
+button {
+    background-color: #7c3aed;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    margin: 15px 5px 0 0;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Task 2 */
+
+.about-section {
+    background-color: #1f2937;
+    color: white;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 700px;
+    border-radius: 15px;
+}
+
+.about-section h2 {
+    color: #a78bfa;
+    margin-bottom: 20px;
+}
+
+.biography {
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+#personalInfo {
+    background-color: #293548;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+#status {
+    color: #a78bfa;
+    font-weight: bold;
+}
+
+.about-section li {
+    margin: 8px 0;
+}
+
+
+/* Task 3 */
+
+.gallery-section {
+    background-color: #1f2937;
+    color: white;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 700px;
+    border-radius: 15px;
+}
+
+.gallery-section h2 {
+    color: #a78bfa;
+    margin-bottom: 15px;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.gallery-image {
+    width: 250px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.gallery-buttons {
+    margin-top: 20px;
+}
+
+
+/* Task 4 */
+
+.favorites-section {
+    background-color: #1f2937;
+    color: white;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 700px;
+    border-radius: 15px;
+}
+
+.favorites-section h2 {
+    color: #a78bfa;
+    margin-bottom: 20px;
+}
+
+.favorite-item {
+    margin-bottom: 10px;
+}
+
+.slide-heading {
+    background-color: #374151;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.slide-heading:hover {
+    background-color: #4b5563;
+}
+
+.slide-panel {
+    background-color: #293548;
+    padding: 15px;
+    border-radius: 0 0 8px 8px;
+    display: none;
+}
+
+.slide-buttons {
+    margin-top: 15px;
+}
+
+
+/* Task 5 */
+
+.skills-section {
+    background-color: #1f2937;
+    color: white;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 700px;
+    border-radius: 15px;
+}
+
+.skills-section h2 {
+    color: #a78bfa;
+    margin-bottom: 15px;
+}
+
+#skillList {
+    margin: 20px 0;
+    padding-left: 25px;
+}
+
+#skillList li {
+    background-color: #293548;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 7px;
+}
+
+#skillInput {
+    width: 70%;
+    max-width: 350px;
+}
+
+.skill-buttons {
+    margin-top: 10px;
+}
+
+/* Task 6 */
+
+.social-section {
+    background-color: #1f2937;
+    color: white;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 700px;
+    border-radius: 15px;
+}
+
+.social-section h2 {
+    color: #a78bfa;
+    margin-bottom: 15px;
+}
+
+#socialLink {
+    display: inline-block;
+    color: #a78bfa;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+#socialLink:hover {
+    color: #c4b5fd;
+    text-decoration: underline;
+}
+
+
+/* Task 7 */
+
+.contact-section {
+    background-color: #1f2937;
+    color: white;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 700px;
+    border-radius: 15px;
+}
+
+.contact-section h2 {
+    color: #220e5e;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.form-group label {
+    margin-bottom: 8px;
+}
+
+.form-group input {
+    padding: 12px;
+    border: 1px solid #4b5563;
+    border-radius: 7px;
+    background-color: #374151;
+    color: white;
+    width: 100%;
+    margin: 0;
+}
+
+.form-output {
+    background-color: #293548;
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.form-output h3 {
+    color: #1a0a4d;
+    margin-bottom: 15px;
+}
+
+.form-output p {
+    margin: 10px 0;
+}
+
+
+/* Task 8 */
+
+.animation-section {
+    background-color: #1f2937;
+    color: white;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 700px;
+    border-radius: 15px;
+}
+
+.animation-section h2 {
+    color: #605972;
+    margin-bottom: 15px;
+}
+
+.skill-bar-container {
+    margin: 25px 0;
+}
+
+.skill-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.bar {
+    width: 100%;
+    height: 15px;
+    background-color: #0f7050;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    width: 0;
+    height: 100%;
+    background-color: #1a0163;
+    border-radius: 10px;
+}
+
+
+
+/* LIGHT THEME */
+body {
+    background-color: #F4F7FB;
+    color: #243247;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.portfolio,
+.about-section,
+.gallery-section,
+.favorites-section,
+.skills-section,
+.social-section,
+.contact-section,
+.animation-section {
+    background-color: #FFFFFF;
+}
+
+h1, h2, h3 {
+    color: #243247;
+}
+
+p {
+    color: #52647B;
+}
+
+button {
+    background-color: #527EB5;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 7px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #3E6598;
+}
+
+a {
+    color: #527EB5;
+}
+
+input {
+    background-color: #FFFFFF;
+    color: #243247;
+    border: 1px solid #D8E0EA;
+}
+
+.slide-panel {
+    background-color: #F4F7FB;
+    color: #52647B;
+}
+
+.slide-heading {
+    background-color: #E8EEF6;
+    color: #345477;
+}
+
+.skill-list li {
+    background-color: #F0F4F9;
+    color: #345477;
+}
+
+.bar {
+    background-color: #E8EEF5;
+}
+
+.progress {
+    background-color: #6388B8;
+}
+
+
+/* DARK THEME */
+body.dark-theme {
+    background-color: #141E2D;
+    color: #E2E8F0;
+}
+
+body.dark-theme .portfolio,
+body.dark-theme .about-section,
+body.dark-theme .gallery-section,
+body.dark-theme .favorites-section,
+body.dark-theme .skills-section,
+body.dark-theme .social-section,
+body.dark-theme .contact-section,
+body.dark-theme .animation-section {
+    background-color: #1D2A3C;
+}
+
+body.dark-theme h1,
+body.dark-theme h2,
+body.dark-theme h3 {
+    color: #E2E8F0;
+}
+
+body.dark-theme p {
+    color: #CBD5E1;
+}
+
+body.dark-theme button {
+    background-color: #6388B8;
+    color: #FFFFFF;
+}
+
+body.dark-theme button:hover {
+    background-color: #52739E;
+}
+
+body.dark-theme a {
+    color: #91B8E8;
+}
+
+body.dark-theme input {
+    background-color: #26364B;
+    color: #FFFFFF;
+    border-color: #40536C;
+}
+
+body.dark-theme .slide-panel {
+    background-color: #26364B;
+    color: #D5DFEB;
+}
+
+body.dark-theme .slide-heading {
+    background-color: #34465E;
+    color: #E2E8F0;
+}
+
+body.dark-theme .skill-list li {
+    background-color: #26364B;
+    color: #D5DFEB;
+}
+
+body.dark-theme .bar {
+    background-color: #34465E;
+}
+
+body.dark-theme .progress {
+    background-color: #789BCB;
+}

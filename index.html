@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 6 - jQuery</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1> My Profile </h1>
+
+    <section id="home" class="portfolio">
+
+        <h2> Welcome to My Portfolio </h2>
+        <h3 id="greeting"> Hello , My name is Madiyar </h3>
+        <h3 class="headline"> Future Developer </h3>
+        
+        <p class="intro"> I'm 2 course student in AITU </p>
+
+        <button id="changeText"> Change greeting </button>
+
+        <button id="lightTheme"> Light Theme </button>
+
+        <button id="darkTheme"> Dark Theme </button>
+    
+    </section>
+
+    <section id="about" class="about-section">
+
+        <h2>About Me</h2>
+
+        <p class="biography">My name is Madiyar. I am a university studentinterested in programming and technology. I enjoy learning new skills and creating websites.</p>
+
+        <div id="personalInfo">
+
+            <h3>My Current Status</h3>
+
+            <p id="status"> Currently learning jQuery!</p>
+
+            <h3>Fun Facts About Me</h3>
+
+            <ul>
+                <li>I enjoy learning new technologies.</li>
+                <li>I am interested in Web Development.</li>
+                <li>My goal is to become a professional developer.</li>
+            </ul>
+
+        </div>
+
+        <button id="hideBtn">Hide</button>
+        <button id="showBtn">Show</button>
+        <button id="toggleBtn">Toggle</button>
+
+    </section>
+
+    <section id="gallery" class="gallery-section">
+
+        <h2>My Gallery</h2>
+
+        <p>Here are some pictures related to my interests.</p>
+
+        <div class="gallery-container">
+
+            <img src="https://techterms.com/img/xl/laptop_586.png" alt="Laptop and Technology" class="gallery-image" width="300px" height="300px">
+            <img src="https://hp.widen.net/content/afodz1kcqq/original/afodz1kcqq.png" alt="Nature and Technology" class="gallery-image" width="300px" height="300px">
+
+        </div>
+
+        <div class="gallery-buttons">
+
+            <button id="fadeInBtn">Fade In</button>
+            <button id="fadeOutBtn">Fade Out</button>
+            <button id="fadeToggleBtn">Fade Toggle</button>
+
+        </div>
+
+    </section>
+
+    <section id="favorites" class="favorites-section">
+
+        <h2>My Favorites</h2>
+
+        <div class="favorite-item">
+
+            <h3 class="slide-heading">My Favorite Music</h3>
+
+            <div class="slide-panel">
+
+                <p> I enjoy listening to different genres of music. Music helps me relax and concentrate.</p>
+
+            </div>
+            
+        </div>
+
+        <div class="favorite-item">
+
+            <h3 class="slide-heading">My Favorite Movie</h3>
+
+            <div class="slide-panel">
+
+                <p> I enjoy watching movies with interesting stories. My favorite genre is science fiction.</p>
+            </div>
+
+        </div>
+
+        <div class="favorite-item">
+
+            <h3 class="slide-heading">My Favorite Subject</h3>
+
+            <div class="slide-panel">
+
+                <p>My favorite subject is Web Development. I enjoy creating websites and learning programming.</p>
+
+            </div>
+
+        </div>
+
+        <div class="slide-buttons">
+
+            <button id="openPanels">Open All</button>
+            <button id="closePanels">Close All</button>
+
+        </div>
+
+    </section>
+
+    <section id="skills" class="skills-section">
+
+        <h2>My Technical Skills</h2>
+
+        <p>Here are my current technical skills:</p>
+
+        <ul id="skillList">
+
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+
+        </ul>
+
+        <input type="text" id="skillInput" placeholder="Enter a new skill">
+
+        <div class="skill-buttons">
+            <button id="addSkill">Add Skill</button>
+            <button id="prependSkill">Prepend Skill</button>
+            <button id="removeSkill">Remove Skill</button>
+        </div>
+
+    </section>
+
+    <section id="social" class="social-section">
+
+        <h2> My Social Media </h2>
+
+        <p> You can visit my GitHub profile using the link below. </p>
+
+        <a id="socialLink" href="https://github.com/mdrqnb/" target="_blank"> Visit My GitHub </a>
+
+        <br><br>
+
+        <button id="changeLink"> Change Link to LinkedIn </button>
+
+    </section>
+
+    <section id="contact" class="contact-section">
+
+        <h2>Contact Me</h2>
+
+        <p>Enter your information below:</p>
+
+        <form id="contactForm">
+
+            <div class="form-group">
+
+                <label for="nameInput">Name:</label>
+                <input type="text" id="nameInput" placeholder="Enter your name">
+
+            </div>
+
+            <div class="form-group">
+
+                <label for="emailInput">Email:</label>
+                <input type="email" id="emailInput" placeholder="Enter your email">
+
+            </div>
+
+        </form>
+
+        <div class="form-output">
+
+            <h3>Live Preview</h3>
+
+            <p>Name: <span id="nameOutput"></span></p>
+
+            <p>Email: <span id="emailOutput"></span></p>
+
+        </div>
+
+    </section>
+
+    <section id="animation" class="animation-section">
+
+        <h2>My Skill Levels</h2>
+
+        <p>My technical skills and proficiency levels:</p>
+
+        <div class="skill-bar-container">
+
+            <div class="skill-info">
+                <span>HTML</span>
+                <span>90%</span>
+            </div>
+
+            <div class="bar">
+                <div class="progress" data-width="90"></div>
+            </div>
+
+        </div>
+
+        <div class="skill-bar-container">
+
+            <div class="skill-info">
+                <span>CSS</span>
+                <span>75%</span>
+            </div>
+
+            <div class="bar">
+                <div class="progress" data-width="75"></div>
+            </div>
+
+        </div>
+
+        <div class="skill-bar-container">
+
+            <div class="skill-info">
+
+                <span>JavaScript</span>
+                <span>60%</span>
+
+            </div>
+
+            <div class="bar">
+                <div class="progress" data-width="60"></div>
+            </div>
+
+        </div>
+
+        <button id="animateSkills"> Animate My Skills </button>
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
